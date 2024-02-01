@@ -4,7 +4,7 @@ body{
 
 .box6{
     height: 300px;
-    width: 1500px;
+    /*width: 1500px;*/
     background-color: white;
     display: flex;
     margin: 10px;
@@ -20,6 +20,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 2s ;
+}
+
+.box7:hover{
+    background-image: url(https://i.pinimg.com/236x/6f/14/12/6f1412ec992aab070b379f068894a16a.jpg);
+    height: 300px;
+    width: 300px;
+    background-repeat: round;
+    transition: 2s;
 }
 
 .box8{
@@ -30,6 +39,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+}
+
+.box8:hover{
+    background-image: url(https://i.pinimg.com/236x/16/29/46/16294613101d92307bd4c17d896de1cd.jpg);
+    height: 300px;
+    width: 300px;
+    background-repeat: round;
+    transition: 2s;
 }
 
 .box9{
@@ -40,11 +58,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 2s;
+}
+
+.box9:hover{
+    background-image: url(https://i.pinimg.com/236x/60/3f/7c/603f7cfeb24ffd035b3eefffd132aba0.jpg);
+    height: 300px;
+    width: 300px;
+    background-repeat: round;
+    transition: 2s;
 }
 
 .box10{
     height: 450px;
-    width: 1500px;
+    /*width: 1500px;*/
     background-color: white;
     margin-top: 25px;
     margin-left: 10px;
